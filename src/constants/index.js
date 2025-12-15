@@ -30,7 +30,14 @@ import {
     kubernetes,
     tensorflow,
     pytorch,
-    sql
+    sql,
+    pyspark,
+    sklearn,
+    langchain,
+    autogen,
+    mlflow,
+    airflow,
+    spark
 } from "../assets/icons";
 
 export const skills = [
@@ -40,7 +47,7 @@ export const skills = [
         type: "Programming",
     },
     {
-        imageUrl: typescript,
+        imageUrl: pyspark,
         name: "PySpark",
         type: "Data Engineering",
     },
@@ -60,17 +67,17 @@ export const skills = [
         type: "ML Framework",
     },
     {
-        imageUrl: react,
+        imageUrl: sklearn,
         name: "Scikit-learn",
         type: "ML Framework",
     },
     {
-        imageUrl: nodejs,
+        imageUrl: langchain,
         name: "LangChain",
         type: "GenAI",
     },
     {
-        imageUrl: express,
+        imageUrl: autogen,
         name: "AutoGen",
         type: "GenAI",
     },
@@ -100,17 +107,17 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: mongodb,
+        imageUrl: mlflow,
         name: "MLflow",
         type: "MLOps",
     },
     {
-        imageUrl: motion,
+        imageUrl: airflow,
         name: "Airflow",
         type: "Data Engineering",
     },
     {
-        imageUrl: mui,
+        imageUrl: spark,
         name: "Spark",
         type: "Big Data",
     }

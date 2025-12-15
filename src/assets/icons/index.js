@@ -33,6 +33,13 @@ import kubernetes from './kubernetes.svg'
 import tensorflow from './tensorflow.svg'
 import pytorch from './pytorch.svg'
 import sql from './sql.svg'
+import pyspark from './pyspark.svg'
+import sklearn from './sklearn.svg'
+import langchain from './langchain.svg'
+import autogen from './autogen.svg'
+import mlflow from './mlflow.svg'
+import airflow from './airflow.svg'
+import spark from './spark.svg'
 
 export {
     css,
@@ -69,5 +76,12 @@ export {
     kubernetes,
     tensorflow,
     pytorch,
-    sql
+    sql,
+    pyspark,
+    sklearn,
+    langchain,
+    autogen,
+    mlflow,
+    airflow,
+    spark
 }

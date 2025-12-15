@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <circle cx="12" cy="12" r="6" fill="#0078D4"/>
+  <circle cx="36" cy="12" r="6" fill="#0078D4"/>
+  <circle cx="12" cy="36" r="6" fill="#0078D4"/>
+  <circle cx="36" cy="36" r="6" fill="#0078D4"/>
+  <circle cx="24" cy="24" r="8" fill="#50E6FF"/>
+  <path d="M12,12 L24,24 M36,12 L24,24 M12,36 L24,24 M36,36 L24,24" stroke="#0078D4" stroke-width="2"/>
+  <text x="24" y="28" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#0078D4" text-anchor="middle">AI</text>
+</svg>

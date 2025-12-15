@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <path fill="#E25A1C" d="M24,4l-4,8l4,8l4-8L24,4z"/>
+  <path fill="#F79A3E" d="M24,20l-8,4l8,4l8-4L24,20z"/>
+  <path fill="#E25A1C" d="M24,28l-4,8l4,8l4-8L24,28z"/>
+  <circle cx="24" cy="24" r="6" fill="#3C3C3B"/>
+  <text x="24" y="28" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="white" text-anchor="middle">PY</text>
+</svg>

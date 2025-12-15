@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <circle cx="24" cy="24" r="18" fill="#F7931E"/>
+  <circle cx="18" cy="18" r="6" fill="#3499CD"/>
+  <circle cx="30" cy="18" r="6" fill="#3499CD"/>
+  <circle cx="24" cy="32" r="6" fill="#3499CD"/>
+  <text x="24" y="27" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">sk</text>
+</svg>
