@@ -180,7 +180,7 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/jagadishreddy',
+        link: 'https://www.linkedin.com/in/jagadish-reddy-016424136',
     }
 ];
 
