@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, infosys, ibs, blend360 } from "../assets/images";
 import {
     car,
     contact,
@@ -23,12 +23,19 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    python,
+    aws,
+    docker,
+    kubernetes,
+    tensorflow,
+    pytorch,
+    sql
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: javascript,
+        imageUrl: python,
         name: "Python",
         type: "Programming",
     },
@@ -38,22 +45,22 @@ export const skills = [
         type: "Data Engineering",
     },
     {
-        imageUrl: javascript,
+        imageUrl: sql,
         name: "SQL",
         type: "Database",
     },
     {
-        imageUrl: react,
+        imageUrl: tensorflow,
         name: "TensorFlow",
         type: "ML Framework",
     },
     {
-        imageUrl: redux,
+        imageUrl: pytorch,
         name: "PyTorch",
         type: "ML Framework",
     },
     {
-        imageUrl: nextjs,
+        imageUrl: react,
         name: "Scikit-learn",
         type: "ML Framework",
     },
@@ -68,17 +75,17 @@ export const skills = [
         type: "GenAI",
     },
     {
-        imageUrl: mongodb,
+        imageUrl: aws,
         name: "AWS",
         type: "Cloud",
     },
     {
-        imageUrl: sass,
+        imageUrl: docker,
         name: "Docker",
         type: "DevOps",
     },
     {
-        imageUrl: tailwindcss,
+        imageUrl: kubernetes,
         name: "Kubernetes",
         type: "DevOps",
     },
@@ -113,8 +120,8 @@ export const experiences = [
     {
         title: "Technology Analyst",
         company_name: "Infosys",
-        icon: starbucks,
-        iconBg: "#accbe1",
+        icon: infosys,
+        iconBg: "#E3F2FD",
         date: "Jul 2018 - Aug 2022",
         points: [
             "Developed credit risk PD models for mortgage loans using logistic regression for Bank of America.",
@@ -127,8 +134,8 @@ export const experiences = [
     {
         title: "Lead Machine Learning Engineer",
         company_name: "IBS Software - Expedia",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: ibs,
+        iconBg: "#FFEBEE",
         date: "Sept 2022 - Dec 2024",
         points: [
             "Developed and deployed ML pipelines for search relevance and room-type mapping using GBDT models on AWS.",
@@ -140,8 +147,8 @@ export const experiences = [
     {
         title: "Generative AI Engineer - Research",
         company_name: "Blend360 - Franklin Templeton",
-        icon: meta,
-        iconBg: "#b7e4c7",
+        icon: blend360,
+        iconBg: "#E8F5E9",
         date: "Dec 2024 - Present",
         points: [
             "Architected multi-agent framework for vSIM to auto-orchestrate strategy generation and portfolio management.",
