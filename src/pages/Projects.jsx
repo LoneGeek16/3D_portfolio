@@ -15,11 +15,10 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        Throughout my career, I've delivered impactful AI/ML solutions across financial services,
+        e-commerce, and enterprise systems. Here are some key projects showcasing my expertise in
+        GenAI, multi-agent systems, NLP, computer vision, and production MLOps. Each project
+        demonstrates practical applications of cutting-edge ML technologies solving real business problems.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
