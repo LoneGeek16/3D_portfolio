@@ -1,11 +1,19 @@
 {
-    "github": {
-        "silent": true
+  "github": {
+    "silent": true
+  },
+  "rewrites": [
+    {
+      "source": "/personalfitgoals",
+      "destination": "/personalfitgoals.html"
     },
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/"
-        }
-    ]
+    {
+      "source": "/personalfitgoals/",
+      "destination": "/personalfitgoals.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
 }
