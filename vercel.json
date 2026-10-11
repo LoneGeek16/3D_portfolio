@@ -4,6 +4,14 @@
   },
   "rewrites": [
     {
+      "source": "/api/fitness/:path*",
+      "destination": "/api/personalfit?route=:path*"
+    },
+    {
+      "source": "/personalfitgoals/privacy",
+      "destination": "/personalfitgoals-privacy.html"
+    },
+    {
       "source": "/personalfitgoals",
       "destination": "/personalfitgoals.html"
     },
@@ -15,5 +23,11 @@
       "source": "/(.*)",
       "destination": "/"
     }
-  ]
+  ],
+  "functions": {
+    "api/personalfit.js": {
+      "maxDuration": 120,
+      "includeFiles": "lib/fitness/schema.sql"
+    }
+  }
 }
